@@ -22,7 +22,7 @@ hide_navbar = """
 st.markdown(hide_navbar, unsafe_allow_html=True)
 
 st.title("KUISIONER TINGKAT KESADARAN KEAMANAN INFORMASI")
-
+st.write("Kuisioner ini bertujuan untuk mengukur tingkat kesadaran keamanan informasi pegawai pemerintah berdasarkan 3 aspek penilaian, yaitu PENGETAHUAN, SIKAP, dan PERILAKU. Harap jawab kuisioner ini dengan cermat sesuai dengan karakterisrik anda, bukan untuk mencari poin tertinggi. Jawaban anda akan menjadi evaluasi bagi pemerintah terkait kesadaran keamanan informasi")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 json_path = os.path.join(BASE_DIR, "questions.json")
 
