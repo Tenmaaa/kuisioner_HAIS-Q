@@ -33,4 +33,4 @@ def save_response(identity, answers):
 
     ref = db.reference("/response")
     ref.push(row)
-    st.switch_page("terima_kasih.py")
+    
