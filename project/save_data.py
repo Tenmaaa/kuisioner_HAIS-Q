@@ -4,6 +4,7 @@ from firebase_admin import credentials, db
 from datetime import datetime
 
 
+
 def connect():
     gcp_sa = dict(st.secrets["gcp_service_account"])  # ubah jadi dict Python asli
     # Buat credential dari dictionary, bukan file
@@ -32,4 +33,4 @@ def save_response(identity, answers):
 
     ref = db.reference("/response")
     ref.push(row)
-    st.Page("terima_kasih.py")
+    st.switch_page("terima_kasih.py")
