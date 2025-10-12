@@ -3,7 +3,7 @@
 # ============================
 Write-Host "Membersihkan kredensial Git lama..."
 git config --global --unset credential.helper
-git credential-manager clear
+git credential-manager-core erase https://github.com
 
 # Hapus semua remote lama
 Write-Host "Menghapus remote origin lama (jika ada)..."
