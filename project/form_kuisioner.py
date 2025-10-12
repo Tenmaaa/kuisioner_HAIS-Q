@@ -151,4 +151,5 @@ if submitted:
         st.error("⚠️ Harap lengkapi identitas sebelum mengirim jawaban.")
     else:
         save_response({"nama_pegawai": nama_pegawai,  "nip": nip,"usia" : usia, "jk" : jk, "pendidikan" : pendidikan, "instansi": instansi}, answers)
+        st.success("Terima kasih — jawaban Anda telah tersimpan ✅")
         
