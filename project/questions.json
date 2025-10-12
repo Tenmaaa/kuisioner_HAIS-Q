@@ -1,0 +1,107 @@
+[
+    {   "_comment":1,
+        "question": "Saya mengetahui bahwa kata sandi harus menggunakan kata sandi yang unik dan kuat untuk perangkat kerja (laptop/komputer/akun aplikasi/dll)",
+        "scale": "knowledge",
+        "note":"--"
+    },
+    {   "_comment":2,
+        "question": "Saya merasa aman membagikan kata sandi perangkat ataupun akun saya terutama melalui chat/telpon",
+        "scale": "agreement!",
+        "note":""
+    },
+    {   "_comment":3,
+        "question": "Saya menggunakan karakter yang unik (huruf, angka, sombol) dalam membuat kata sandi dan menghindari menggunakan kata sandi yang sama untuk beberapa akun",
+        "scale": "frequency",
+        "note":""
+    },  
+    {   "_comment":4,
+        "question": "Saya mengetahui bahwa membagikan tautan dalam e-mail/SMS dari pengirim terkenal atau mencurigakan berpotensi menyebarkan serangan virus (pengetahuan)",
+        "scale": "knowledge",
+        "note":""
+    },
+    {   "_comment":5,
+        "question": "Saya merasa aman jika saya mengakses tautan dalam e-mail/SMS dari orang yang tidak dikenal",
+        "scale": "agreement!",
+        "note":""
+    },
+    {   "_comment":6,
+        "question": "Saya berinisiatif untuk melaporkan kepada departemen IT/pihak IT di lingkungan kerja saya jika mendapatkan email yang mencurigakan",
+        "scale": "agreement",
+        "note":""
+    },
+    {   "_comment":7,
+        "question": "Saya mengetahui bahwa berbahaya mengakses situs dewasa, situs perjudian, situs unduh berbasis torrent, atau situs sejenis lainnya",
+        "scale": "knowledge",
+        "note":""
+    },
+    {   "_comment":8,
+        "question": "Saya merasa penting memastikan keamanan suatu situs web (URL, HTTPS, VPN, sertifikat digital, dan lainnya) sebelum memberikan informasi secara daring",
+        "scale": "agreement",
+        "note":""
+    },
+    {   "_comment":9,
+        "question": "Saya hanya menguduh file/aplikasi di perangkat dari situs web resmi/terpercaya dan menghindari mengunduh dari situs ilegal/bajakan",
+        "scale": "frequency",
+        "note":""
+    },
+    {   "_comment":10,
+        "question": "Saya mengetahui bahwa penggunaan sosial media yang berlebihan diwaktu kerja berpotensi memberi celah pada serangan siber",
+        "scale": "knowledge",
+        "note":""
+    },
+    {   "_comment":11,
+        "question": "Saya merasa unggahan/postingan di media sosial tidak akan memberikan dampak apa pun terhadap keamanan informasi",
+        "scale": "agreement!",
+        "note":""
+    },
+    {   "_comment":12,
+        "question": "Saya menghindari mengunggah/memposting informasi pribadi (foto anak, KTP, pelat nomor kendaraan, dan lainnya) atau data terkait pekerjaan di media sosial",
+        "scale": "frequency",
+        "note":""
+    },
+    {   "_comment":13,
+        "question": "Saya mengetahui bahwa mengirimkan informsi melalui jaringan seluler beresiko membuka celah untuk mencuri informasi",
+        "scale": "knowledge",
+        "note":""
+    },
+    {   "_comment":14,
+        "question": "Saya akan melaporkan kepada pihak berwewenang tindakan mencurigakan terkait keamanan informasi yang saya lihat meskipun dilakukan oleh orang yang dikenal",
+        "scale": "agreement",
+        "note":""
+    },
+    {   "_comment":15,
+        "question": "Saya pernah membuat laporan insiden keamanan kepada pihak berwenang seperti di media sosial, pengaduan ke BRTI, Kepolisian, OJK, lapor.go.id, dan lainnya terkait pelanggaran/penipuan",
+        "scale": "frequency",
+        "note":""
+    },
+    {   "_comment":16,
+        "question": "Saya mengetahui bahwa mengirimkan informsi melalui jaringan seluler beresiko membuka celah untuk mencuri informasi",
+        "scale": "knowledge",
+        "note":""
+    },
+    {   "_comment":17,
+        "question": "Saya merasa khawatir ketika meninggalkan perangkat kerja/leptop  saya di meja kerja dalam keadaan terbuka tanpa diawas",
+        "scale": "agreement",
+        "note":""
+    },
+    {   "_comment":18,
+        "question": "Saya pernah menggunakan Wi-Fi gratis di tempat umum untuk mengakses data penting (transaksi keuangan, email pekerjaan, dan lainnya)",
+        "scale": "frequency!",
+        "note":""
+    },
+    {   "_comment":19,
+        "question": "Saya mengetahui bahwa USB/drive dari orang yang tak dikenal atau tidak diketahui asalnya beresiko menyebarkan virus",
+        "scale": "knowledge",
+        "note":""
+    },
+    {   "_comment":20,
+        "question": "Saya merasa aman ketika membuang file/dokumen kerja langsung ke tempat sampah atau recycle bin",
+        "scale": "agreement!",
+        "note":""
+    },
+    {   "_comment":21,
+        "question": "Saya selalu menutup dokumen kerja yang sensitif/penting setelah dibuka atau digunakan",
+        "scale": "frequency",
+        "note":""
+    }
+]
