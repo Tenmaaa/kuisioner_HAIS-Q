@@ -151,5 +151,5 @@ if submitted:
         st.error("⚠️ Harap lengkapi identitas sebelum mengirim jawaban.")
     else:
         save_response({"nama_pegawai": nama_pegawai,  "nip": nip,"usia" : usia, "jk" : jk, "pendidikan" : pendidikan, "instansi": instansi}, answers)
-        st.switch_page("terima_kasih.py")
+        st.switch_page("terima_kasih")
         
