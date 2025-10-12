@@ -4,10 +4,12 @@ from firebase_admin import credentials, db
 from datetime import datetime
 
 def connect():
-    cred = credentials.Certificate(st.secrets["gcp_service_account"])  # pastikan file JSON-nya di folder yang sama
-    firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://kuisioner-haisq-default-rtdb.firebaseio.com/'  # ganti sesuai URL database kamu
-    })
+    gcp_sa = st.secrets["gcp_service_account"]
+    cred = credentials.Certificate(dict(gcp_sa))  # pastikan file JSON-nya di folder yang sama
+    if not firebase_admin._apps:
+        firebase_admin.initialize_app(cred, {
+            'databaseURL': 'https://kuisioner-haisq-default-rtdb.firebaseio.com/'
+        })
         
 def save_response(identity, answers):
     connect()
