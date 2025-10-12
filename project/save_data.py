@@ -2,10 +2,12 @@ import streamlit as st
 import firebase_admin
 from firebase_admin import credentials, db
 from datetime import datetime
+import json
 
 def connect():
     gcp_sa = st.secrets["gcp_service_account"]
-    cred = credentials.Certificate(dict(gcp_sa))  # pastikan file JSON-nya di folder yang sama
+    service_secret_info = json.loads(json.dumps(gcp_sa))
+    cred = credentials.Certificate(service_secret_info)  # pastikan file JSON-nya di folder yang sama
     if not firebase_admin._apps:
         firebase_admin.initialize_app(cred, {
             'databaseURL': 'https://kuisioner-haisq-default-rtdb.firebaseio.com/'
