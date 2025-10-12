@@ -32,3 +32,4 @@ def save_response(identity, answers):
 
     ref = db.reference("/response")
     ref.push(row)
+    st.Page("terima_kasih.py")
