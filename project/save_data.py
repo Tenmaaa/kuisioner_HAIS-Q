@@ -24,6 +24,7 @@ def save_response(identity, answers):
         "nip": identity["nip"],
         #"email": identity["email"],
         "jk": identity["jk"],
+        "status" : identity["status"],
         "usia": identity["usia"],
         "pendidikan": identity["pendidikan"],
         "instansi": identity["instansi"]
