@@ -84,6 +84,10 @@ with st.form("likert_form"):
         "Jenis Kelamin",
         ["Laki-laki", "Perempuan"],
     )
+    status = st.radio(
+        "Status Pegawai",
+        ["PNS", "PPPK"],
+    )
     pendidikan = st.selectbox(
         "-- Tingkat Pendidikan --",[
             "-- Tingkat Pendidikan --",
@@ -147,9 +151,12 @@ with st.form("likert_form"):
     submitted = st.form_submit_button("Kirim Jawaban")
 
 if submitted:
-    if nama_pegawai.strip() == "" or nip.strip() == "" or usia.strip() == "" or jk.strip() == "" or pendidikan == "-- Tingkat Pendidikan --" or instansi == "-- Pilih Instansi --":
+    if nama_pegawai.strip() == "" or nip.strip() == "" or usia.strip() == "" or jk.strip() == "" or status.strip() == "" or pendidikan == "-- Tingkat Pendidikan --" or instansi == "-- Pilih Instansi --":
         st.error("⚠️ Harap lengkapi identitas sebelum mengirim jawaban.")
     else:
-        save_response({"nama_pegawai": nama_pegawai,  "nip": nip,"usia" : usia, "jk" : jk, "pendidikan" : pendidikan, "instansi": instansi}, answers)
+        save_response({"nama_pegawai": nama_pegawai,  "nip": nip,"usia" : usia, "jk" : jk, "status" : status, "pendidikan" : pendidikan, "instansi": instansi}, answers)
         st.success("Terima kasih — jawaban Anda telah tersimpan ✅")
+        for key in st.session_state.keys():
+            del st.session_state[key]
+
         
