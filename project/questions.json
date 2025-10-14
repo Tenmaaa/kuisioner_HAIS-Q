@@ -27,7 +27,7 @@
     {   "_comment":6,
         "question": "Saya berinisiatif untuk melaporkan kepada departemen IT/pihak IT di lingkungan kerja saya jika mendapatkan email yang mencurigakan",
         "scale": "agreement",
-        "note":""
+        "note":" misalnya email yang menawarkan hadiah, ancaman, permintaan pribadi, dll"
     },
     {   "_comment":7,
         "question": "Saya mengetahui bahwa berbahaya mengakses situs dewasa, situs perjudian, situs unduh berbasis torrent, atau situs sejenis lainnya",
@@ -80,7 +80,7 @@
         "note":""
     },
     {   "_comment":17,
-        "question": "Saya merasa khawatir ketika meninggalkan perangkat kerja/leptop  saya di meja kerja dalam keadaan terbuka tanpa diawas",
+        "question": "Saya merasa khawatir ketika meninggalkan perangkat kerja/laptop  saya di meja kerja dalam keadaan terbuka tanpa diawasi",
         "scale": "agreement",
         "note":""
     },
@@ -92,16 +92,16 @@
     {   "_comment":19,
         "question": "Saya mengetahui bahwa USB/drive dari orang yang tak dikenal atau tidak diketahui asalnya beresiko menyebarkan virus",
         "scale": "knowledge",
-        "note":""
+        "note":"USB/DRIVE = flasdisk, hardisk eksternal, dll"
     },
     {   "_comment":20,
         "question": "Saya merasa aman ketika membuang file/dokumen kerja langsung ke tempat sampah atau recycle bin",
         "scale": "agreement!",
-        "note":""
+        "note":"baik secara fisik maupun softfile"
     },
     {   "_comment":21,
         "question": "Saya selalu menutup dokumen kerja yang sensitif/penting setelah dibuka atau digunakan",
         "scale": "frequency",
-        "note":""
+        "note":"baik secara fisik maupun softfile"
     }
 ]
