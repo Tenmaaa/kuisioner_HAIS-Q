@@ -110,6 +110,8 @@ with st.form("likert_form"):
     instansi = st.selectbox(
         "Asal Instansi",
         ["-- Pilih Instansi --",
+         "Bag. Ekonomi Sekretariat Daerah",
+         "Bag. Organisasi Sekteratiat Daerah",
          "Bag. Tata Pemerintahan Sekretariat Daerah",
          "Bag. Umum Sekretariat Daerah",
          "Bag. Prokopim Sekretariat Daerah"
