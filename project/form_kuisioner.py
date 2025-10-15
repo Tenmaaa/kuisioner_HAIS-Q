@@ -172,6 +172,7 @@ if submitted:
     else:
         save_response({"nama_pegawai": nama_pegawai,  "nip": nip,"usia" : usia, "jk" : jk, "status" : status, "pendidikan" : pendidikan, "instansi": instansi}, answers)
         st.success("Terima kasih — jawaban Anda telah tersimpan ✅")
+        st.switch_page("pages/terima_kasih.py")
         
             
         
