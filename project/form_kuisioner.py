@@ -21,7 +21,7 @@ hide_navbar = """
 """
 st.markdown(hide_navbar, unsafe_allow_html=True)
 
-st.title("KUISIONER TINGKAT KESADARAN KEAMANAN INFORMASI")
+st.title("KUESIONER TINGKAT KESADARAN KEAMANAN INFORMASI")
 st.write("""
          
          Assalamualaikum Warahmatullahi Wabarakatuh,
@@ -174,6 +174,6 @@ if submitted:
         st.success("Terima kasih — jawaban Anda telah tersimpan ✅")
         
             
-        st.switch_page("pages/terima_kasih.py")
+        
 
         
