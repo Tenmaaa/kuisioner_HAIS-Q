@@ -112,7 +112,7 @@ with st.form("likert_form"):
         ["-- Pilih Instansi --",
          "Bag. Hukum Sekretariat Daerah",
          "Bag. Sumber Daya Alam Sekretariat Daerah",
-         "Bag. Kerjasama",
+         "Bag. Kerjasama Sekretariat Daerah",
          "Bag. Ekonomi Sekretariat Daerah",
          "Bag. Organisasi Sekteratiat Daerah",
          "Bag. Tata Pemerintahan Sekretariat Daerah",
@@ -172,7 +172,8 @@ if submitted:
     else:
         save_response({"nama_pegawai": nama_pegawai,  "nip": nip,"usia" : usia, "jk" : jk, "status" : status, "pendidikan" : pendidikan, "instansi": instansi}, answers)
         st.success("Terima kasih — jawaban Anda telah tersimpan ✅")
-        for key in st.session_state.keys():
-            del st.session_state[key]
+        
+            
+        st.switch_page("pages/terima_kasih.py")
 
         
