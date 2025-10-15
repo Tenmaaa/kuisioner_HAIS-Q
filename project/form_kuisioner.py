@@ -128,7 +128,9 @@ with st.form("likert_form"):
          "Dinas Perpustakaan dan Kearsipan",
          "Badan Perencana Pembangunan Daerah",
          "Badan Pengelola Pajak dan Retribusi Daerah",
-         "Badan Pengelola Keuangan dan Aset Daerah"]
+         "Badan Pengelola Keuangan dan Aset Daerah",
+         "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia",
+         ]
     )
 
     def get_scale_for_question(questions):
