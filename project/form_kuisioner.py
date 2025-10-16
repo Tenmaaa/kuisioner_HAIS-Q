@@ -102,6 +102,7 @@ with st.form("likert_form"):
             "-- Tingkat Pendidikan --",
             "SMP",
             "SMA/Sederajat",
+            "D3",
             "S1",
             "S2",
             "S3"
