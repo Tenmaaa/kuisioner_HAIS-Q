@@ -25,8 +25,8 @@ st.title("KUESIONER TINGKAT KESADARAN KEAMANAN INFORMASI")
 st.write("""
          
          Assalamualaikum Warahmatullahi Wabarakatuh,
-pernekalkan saya FIQRAM FAATHIR
-Mahasiswa Universitas Halu Oleu sedang melakukan penelitian dengan judul penelitian
+perkenalkan saya FIQRAM FAATHIR
+Mahasiswa Universitas Halu Oleo Jruusan Teknik Informatika sedang melakukan penelitian dengan judul penelitian
 
 "PENERAPAN ALGORITMA K-MEANS DALAM KLASTRISASI TINGKAT KESADARAN KEAMANAN INFORRMASI PEGAWAI PEMERINTAH KOTA KENDARI"
          
@@ -112,12 +112,15 @@ with st.form("likert_form"):
         "Asal Instansi",
         ["-- Pilih Instansi --",
          "Bag. Hukum Sekretariat Daerah",
+         "Bag. Adm. Keuangan dan Aset Sekretariat Daerah",
+         "Bag. Adm. Umum dan Perlengkapan Sekretariat Daerah",
+         "Bag. Pemberdayaan Masyarakat Sekretariat Daerah",
+         "Bag. Adm. Kesejahteraan Masyarakat Kota Kendari",
          "Bag. Sumber Daya Alam Sekretariat Daerah",
          "Bag. Kerjasama Sekretariat Daerah",
          "Bag. Ekonomi Sekretariat Daerah",
          "Bag. Organisasi Sekteratiat Daerah",
          "Bag. Tata Pemerintahan Sekretariat Daerah",
-         "Bag. Umum Sekretariat Daerah",
          "Bag. Prokopim Sekretariat Daerah",
          "Dinas Kependudukan dan Pencatatan Sipil",
          "Dinas Komunikasi dan Informatika",
@@ -128,7 +131,7 @@ with st.form("likert_form"):
          "Badan Kesatuan Bangsa dan Politik",
          "Dinas Perpustakaan dan Kearsipan",
          "Badan Perencana Pembangunan Daerah",
-         "Badan Pengelola Pajak dan Retribusi Daerah",
+         "Badan Pendapatan Daerah",
          "Badan Pengelola Keuangan dan Aset Daerah",
          "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia",
          ]
