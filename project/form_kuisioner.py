@@ -118,6 +118,7 @@ with st.form("likert_form"):
          "Bag. Adm. Kesejahteraan Masyarakat Kota Kendari",
          "Bag. Sumber Daya Alam Sekretariat Daerah",
          "Bag. Kerjasama Sekretariat Daerah",
+         "Bag. Adm. Pembangunan Sekretariat Daerah",
          "Bag. Ekonomi Sekretariat Daerah",
          "Bag. Organisasi Sekteratiat Daerah",
          "Bag. Tata Pemerintahan Sekretariat Daerah",
