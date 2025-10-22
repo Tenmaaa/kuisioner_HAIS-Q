@@ -103,7 +103,7 @@ with st.form("likert_form"):
             "SMP",
             "SMA/Sederajat",
             "D3",
-            "S1",
+            "S1/D4",
             "S2",
             "S3"
         ]
