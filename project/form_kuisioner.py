@@ -123,6 +123,7 @@ with st.form("likert_form"):
          "Bag. Organisasi Sekteratiat Daerah",
          "Bag. Tata Pemerintahan Sekretariat Daerah",
          "Bag. Prokopim Sekretariat Daerah",
+         "Bag. Pengadaan Barang dan Jasa (UKPBJ)",
          "Dinas Kependudukan dan Pencatatan Sipil",
          "Dinas Komunikasi dan Informatika",
          "Inspektorat",
