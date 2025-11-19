@@ -1,6 +1,6 @@
 import streamlit as st
 import firebase_admin
-from firebase_admin import credentials, db
+from firebase_admin import db
 from datetime import datetime
 from .connect import connect
         
