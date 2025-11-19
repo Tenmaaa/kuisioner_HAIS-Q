@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 import json
-from .save_data import save_response
+from save_data import save_response
 
 hide_navbar = """
     <style>
