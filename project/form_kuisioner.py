@@ -2,14 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 import json
-from save_data import save_response, connect
-
-st.set_page_config(
-    page_title="Form Kuisioner",
-    page_icon="📝",
-    layout="centered",
-    initial_sidebar_state="collapsed"
-)
+from .save_data import save_response
 
 hide_navbar = """
     <style>
