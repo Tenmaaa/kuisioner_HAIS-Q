@@ -2,18 +2,7 @@ import streamlit as st
 import firebase_admin
 from firebase_admin import credentials, db
 from datetime import datetime
-
-
-
-def connect():
-    gcp_sa = dict(st.secrets["gcp_service_account"])  # ubah jadi dict Python asli
-    # Buat credential dari dictionary, bukan file
-    cred = credentials.Certificate(gcp_sa)
-  # pastikan file JSON-nya di folder yang sama
-    if not firebase_admin._apps:
-        firebase_admin.initialize_app(cred, {
-            'databaseURL': 'https://kuisioner-haisq-default-rtdb.firebaseio.com/'
-        })
+from connect import connect
         
 def save_response(identity, answers):
     connect()
@@ -32,6 +21,6 @@ def save_response(identity, answers):
     for i, ans in enumerate(answers, start=1):
         row[f"q{i}"] = ans
 
-    ref = db.reference("/response")
+    ref = db.reference("/responsekertas")
     ref.push(row)
     
